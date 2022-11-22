@@ -1,32 +1,24 @@
 body {
-  color: red;
+  background: #d0cfcf;
+  font-size: 25px;
 }
 
-h1 {
-  color: #00ff00;
+p {
+  font-family: "Times New Roman", Times, serif;
 }
 
-p.ex {
-  color: rgb(0, 0, 255);
-}
-
-h1 {
-  border: 5px solid red;
+a {
+  text-decoration: rgb(173, 173, 255);
 }
 
 h2 {
-  border: 4px dotted blue;
+  text-transform: capitalize;
 }
 
-div {
-  border: double;
+section {
+  font-size: 2.5em;
 }
 
-div {
-  width: 70px;
-  height: 300px;
-  border: 1px solid #c3c3c3;
-  display: flex;
-  flex-wrap: wrap;
-  align-content: center;
+h1 {
+  text-shadow: 6px 6px 3px blue;
 }
