@@ -9,29 +9,29 @@
   <body>
     <h1>HTML Mockup</h1>
     <header>
-      <p>Write the necessary HTML to make your page look just like this one:</p>
-
-      <div>
-        <nav>
-          <a href="#" Home></a>
-          <a href="#" About></a>
-          <a href="#" Contact></a>
-        </nav>
-      </div>
+      Inside of header - let's add a navbar with some essential links
+      <nav>
+        <a href="#">Home</a>
+        <a href="#"> About</a>
+        <a href="#"> Contact</a>
+      </nav>
     </header>
+    <hr>
+    <section>
+      <h2>Here is the main section of our page - it consists of a new articles</h2>
     <article>
       <h3>
         Article 1 - 1995 was a pretty crazy year for programming languages!
       </h3>
-      <p>Dont belive me? Just check this table out:</p>
+      <p>Dont believe me? Just check this table out:</p>
     </article>
 
-    <table style="width: 10%" border="3">
+    <table style="width: 35%" border="3">
       <tbody>
         <tr>
-          <td>Language</td>
-          <td>Designed By</td>
-          <td>First Appeared</td>
+          <td><strong>Language</strong></td>
+          <td><strong>Designed By</strong></td>
+          <td><strong>First Appeared</strong></td>
         </tr>
         <tr>
           <td>C++</td>
@@ -99,28 +99,53 @@
 
     <br />
 
-    <h3>Essential Questions</h3>
-
-    <p>What kind of work do you need</p>
-    <form action="/action.php" method="post">
-      <br />
-
-      <!-- Programming Design
-Singing
-Comedy -->
-
-      <!-- How interested are you in design skills?
-Very Low
-Low 
-Medium
-Very High -->
-
-      <br />
-      <input type="submit" value="Submit" />
-    </form>
-
-    <!-- Here is your footer- let’s make sure we copyright this!
-
-Solution -->
-  </body>
+    <h2>Essential Questions</h2>
+    <span>What kind of work do you need?</span>
+    <div>
+      <label for="programming">Programming: </label>
+      <input type="checkbox" id="programming" name="programming">
+    </div>
+    <div>
+      <label for="design">Design: </label>
+      <input type="checkbox" id="design">
+    </div>
+    <div>
+      <label for="singing">Singing: </label>
+      <input type="checkbox" id="singing">
+    </div>
+    <div>
+      <label for="comedy">Comedy: </label>
+      <input type="checkbox" id="comedy">
+    </div>
+    <br>
+    <span>How interested are you in our design skills?</span>
+    <div>
+      <label for="very_low">Very Low</label>
+      <input type="radio" id="very_low" name="interest" value="very low">
+    </div>
+    <div>
+      <label for="low">Low</label>
+      <input type="radio" id="low" name="interest" value="low">
+    </div>
+    <div>
+      <label for="medium">Medium</label>
+      <input type="radio" id="medium" name="interest" value="medium">
+    </div>
+    <div>
+      <label for="high">High</label>
+      <input type="radio" id="high" name="interest" value="high">
+    </div>
+    <div>
+      <label for="very_high">Very High</label>
+      <input type="radio" id="very_high" name="interest" value="very high">
+    </div>
+    <div>
+      <input type="submit" value="Submit me!">
+    </div>
+  </form>
+</section>
+<footer>
+  Here is our footer - let's make sure we copyright &copy; this!
+</footer>
+</body>
 </html>
