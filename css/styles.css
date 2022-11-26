@@ -2,7 +2,10 @@ body {
   background: #d0cfcf;
   font-size: 25px;
 }
-
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
 p {
   font-family: "Times New Roman", Times, serif;
 }
@@ -20,5 +23,5 @@ section {
 }
 
 h1 {
-  text-shadow: 6px 6px 3px blue;
+  text-shadow: 6px 6px 3px black;
 }
