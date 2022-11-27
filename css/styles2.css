@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Josefin Sans", sans-serif;
+  box-sizing: border-box;
+}
+.container {
+  margin: 2em;
+  padding: 1em;
+  background-color: lightblue;
+  color: blue;
+  outline: 1pt solid green;
+  outline-offset: 5px;
+  width: 25%;
+  box-sizing: border-box;
+  height: 10em;
+  position: static;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 45px;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.logo {
+  color: white;
+  font-size: 35px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+nav ul li a:hover {
+  color: #f9004d;
+  transition: 0.4s;
+}
+.btn {
+  background-color: #f9004d;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 25px;
+  border: radius 30px;
+  transition: transform 0.4s;
+}
+
+.btn:hover {
+}
