@@ -227,34 +227,6 @@ h5 {
   text-align: center;
 }
 
-.projects img {
-  height: auto;
-  width: 330px;
-}
-.projects-text {
-  width: 550px;
-}
-.projects-text h2 {
-  color: white;
-  font-size: 75px;
-  text-transform: capitalize;
-  margin-bottom: 20px;
-}
-.projects-text h5 {
-  color: white;
-  letter-spacing: 2px;
-  font-size: 22px;
-  margin-bottom: 25px;
-  text-transform: capitalize;
-}
-
-.projects-text p {
-  color: white;
-  letter-spacing: 1px;
-  line-height: 28px;
-  font-size: 18px;
-  margin-bottom: 45px;
-}
 .resume {
   width: 100%;
   height: 290px;
@@ -354,7 +326,7 @@ footer p {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #f9004d;
+  background: #191919;
   border-radius: 50%;
   margin: 22px 10px;
   color: white;
@@ -364,7 +336,7 @@ footer p {
 
 .social a:hover {
   background-color: transparent;
-  border: 2px solid #f9004d;
+  border: 2px solid #191919;
   cursor: pointer;
 }
 
