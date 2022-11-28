@@ -9,6 +9,7 @@
       .content-box {
         box-sizing: content-box;
         width: 200px;
+        margin-bottom: 25px;
         padding: 1rem;
         border: 4px solid black;
       }
@@ -18,6 +19,7 @@
         width: 200px;
         padding: 1rem;
         border: 4px solid black;
+        position: absolute;
       }
 
       .content-box:hover {
@@ -25,14 +27,12 @@
         width: 200px;
         border: 2px solid #191919;
         cursor: pointer;
-        top: auto;
-        /* opacity: 0; */
       }
 
       .border-box:hover {
-        color: goldenrod;
+        color: black;
         width: 200px;
-        border: 1px solid #191919;
+        border: 5px solid #191919;
         cursor: pointer;
         opacity: 0;
       }
@@ -43,20 +43,18 @@
       }
 
       .content-box img {
-        width: 200px;
+        width: 175px;
         height: auto;
       }
     </style>
   </head>
   <body>
     <div class="content-box">
-      <img
-        src="https://variety.com/wp-content/uploads/2022/11/snoop.jpg?w=681&h=383&crop=1"
-      />
+      <img src="https://www.dofactory.com/img/html/vangogh.jpg" />
     </div>
     <div class="border-box">
       <img
-        src="https://nationaltoday.com/wp-content/uploads/2022/10/27-Janet-Jackson-640x514.jpg"
+        src="https://images.unsplash.com/photo-1662581871665-f299ba8ace07?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=686&q=80"
       />
     </div>
   </body>
