@@ -5,11 +5,11 @@
   box-sizing: border-box;
 }
 
-/* .logo {
+.logo {
   color: white;
   font-size: 35px;
   letter-spacing: 1px;
-  cursor: pointer; */
+  cursor: pointer;
 }
 .main-header {
   height: 75vh;
