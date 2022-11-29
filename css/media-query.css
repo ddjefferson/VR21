@@ -69,12 +69,12 @@
   }
 
   .resize {
-    background-color: black;
-    height: 500px;
-    width: 500px;
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
   }
   .random {
-    background-color: yellow;
+    background-color: black;
     height: 400px;
     width: 400px;
   }
