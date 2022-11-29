@@ -3,9 +3,15 @@
     background-color: red;
   }
   .resize {
-    background-color: red;
+    background-color: black;
     height: 100px;
     width: 100px;
+  }
+
+  .random {
+    background-color: green;
+    height: 200px;
+    width: 200px;
   }
 }
 
@@ -18,30 +24,42 @@
     height: 300px;
     width: 300px;
   }
+  .random {
+    background-color: white;
+    height: 200px;
+    width: 200px;
+  }
 }
 
 @media (min-width: 600px) {
   body {
-    background-color: purple;
+    background-color: royalblue;
   }
   .resize {
-    background-color: red;
+    background-color: yellow;
     height: 400px;
     width: 400px;
   }
-
-  .someNewClass {
+  .random {
+    background-color: white;
+    height: 200px;
+    width: 100px;
   }
 }
 
 @media (min-width: 801px) {
   body {
-    background-color: yellow;
+    background-color: red;
   }
   .resize {
-    background-color: red;
-    height: 600px;
-    width: 600px;
+    background-color: green;
+    height: 500px;
+    width: 500px;
+  }
+  .random {
+    background-color: white;
+    height: 300px;
+    width: 300px;
   }
 }
 
@@ -51,19 +69,30 @@
   }
 
   .resize {
-    background-color: red;
-    height: 800px;
-    width: 800px;
+    background-color: black;
+    height: 500px;
+    width: 500px;
+  }
+  .random {
+    background-color: yellow;
+    height: 400px;
+    width: 400px;
   }
 }
 
 @media (min-width: 1281px) {
   body {
-    background-color: orange;
+    background-color: green;
   }
   .resize {
+    background-color: white;
+    height: 500px;
+    width: 500px;
+  }
+
+  .random {
     background-color: red;
-    height: 900px;
-    width: 900px;
+    height: 400px;
+    width: 400px;
   }
 }
