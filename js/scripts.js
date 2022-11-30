@@ -93,3 +93,57 @@ const favFood = " Mom's Spaghetti";
 console.log(
   `Hi, my name is ${firstName2} ${lastName}, ${favFood} is on my sweater already.`
 );
+
+const sentence = "I am new to learning Javascript";
+
+// using slice method -> "I am new"
+sentence.slice(0, 7);
+console.log(sentence.slice(0, 8));
+
+sentence.slice(0, 20);
+console.log(sentence.slice(0, 20));
+
+sentence.slice(12);
+console.log(sentence.slice(12));
+
+// const hasID = prompt("Do you have and ID?");
+// const userAge = prompt("How old are you?");
+// if (userAge > 21) {
+//   console.log("You can enter the club and pop bottles");
+// } else {
+//   console.log("Go home!");
+// }
+
+if (true) {
+  console.log("This was true");
+} else {
+  console.log("This was false"); // this would print true
+}
+
+//
+if (true) {
+  // print it was true
+} else {
+  // print it was false
+}
+
+//
+let inputPassword = "secret1";
+
+if (secret1 === dbPassword) {
+  // authenticate the user
+} else {
+  // print your password was incorrect
+}
+
+let x = 10;
+
+// only one of the branches below will run
+
+if (x > 10) {
+  console.log("x is greater than 10");
+} else if (x === 10) {
+  console.log("x is equal to 10");
+} else {
+  console.log("x is less than 10");
+}
