@@ -4,7 +4,12 @@ const myName = "David";
 const age = 31;
 // use string literal or concatination
 
-console.log("My name: ", myName);
+// console.log("My name: ", myName);
+// console.log('My name is  ${myName}');
+
+const num3 = 49;
+const num4 = 41;
+console.log("57 + 43 = ${num3+num4}");
 
 const number = 9;
 console.log("Type of number: ", typeof number);
@@ -12,9 +17,9 @@ console.log("Type of number: ", typeof number);
 const isLoggedIn = true;
 console.log("Is logged in: ", isLoggedIn);
 
-favFood = "seafood";
-favRestaurant = "TruLucks";
-console.log("I love " + favRestaurant + " they have the best " + favFood + "!");
+// favFood = "seaFood";
+// favRestaurant = "TruLucks";
+// console.log("I love " + favRestaurant + " they have the best " + favFood + "!");
 
 console.log("6" == 6);
 
@@ -77,6 +82,14 @@ const thingOne = "purple";
 const thingTwo = "gold";
 console.log(thingOne + " " + thingTwo);
 
-for (i = 0; i < 12; i++) {
+for (i = 0; i < 17; i++) {
   console.log(i);
 }
+
+const firstName2 = " Slim ";
+const lastName = " Shady";
+const favFood = " Mom's Spaghetti";
+
+console.log(
+  `Hi, my name is ${firstName2} ${lastName}, ${favFood} is on my sweater already.`
+);
