@@ -11,6 +11,8 @@
 // };
 
 // writeArgs("First", "Second", "Third", "Fourth");
+
+// difference
 /*
 function difference(a, b) {
   return a - b;
@@ -18,15 +20,15 @@ function difference(a, b) {
 console.log(2, 2);
 console.log(0, 2);
 
+// product
 function product(a, b) {
   return a * b;
 }
 console.log(2 * 2);
 console.log(0 * 2);
 
-
-
-// TODO: finish this 
+// printDay
+// TODO: finish this
 function printDay(num) {
   let dates = {
     1: "Sunday",
@@ -39,16 +41,17 @@ function printDay(num) {
   };
   return dates[num];
 }
+console.log(printDay(1));
+console.log(printDay(41));
 
-*/
-
+//lastElement
 function lastElement(arr) {
   return arr[arr.length - 1];
 }
-lastElement([1, 2, 3, 4]);
-lastElement([]);
+console.log(lastElement([1, 2, 3, 4]));
+console.log(lastElement([]));
 
-/* 
+// numberCompare
 function numberCompare(a, b) {
   if (a === b) {
     return "Numbers are equal";
@@ -57,7 +60,11 @@ function numberCompare(a, b) {
   }
   return "Second is greater";
 }
+console.log(numberCompare(1, 1));
+console.log(numberCompare(2, 1));
+console.log(numberCompare(1, 2));
 
+// singleLetterCount
 function singleLetterCount(str1, letter) {
   let finalCount = 0;
   for (let i = 0; i < str1.length; i++) {
@@ -68,6 +75,10 @@ function singleLetterCount(str1, letter) {
   return finalCount;
 }
 
+console.log(singleLetterCount("amazing", "A")); // 2
+console.log(singleLetterCount("Rithm School", "o")); // 2
+
+// multipleLetterCount
 function multipleLetterCount(str) {
   str = str.toLowerCase();
   let finalObj = {};
@@ -81,6 +92,7 @@ function multipleLetterCount(str) {
   return finalObj;
 }
 
+//arrayManipulation
 function arrayManipulation(arr, command, position, val) {
   if (command === "remove") {
     if (position === "end") {
@@ -97,6 +109,7 @@ function arrayManipulation(arr, command, position, val) {
   }
 }
 
+//isPalindrome
 function isPalindrome(str) {
   return str.toLowerCase().split("").reverse().join("") === str.toLowerCase();
 
@@ -107,7 +120,6 @@ function isPalindrome(str) {
   // }
   // return true;
 }
-
 
 //  *** BONUS ***
 function RPS() {
@@ -140,5 +152,4 @@ function RPS() {
 
   return "You win! Computer picked " + computerChoice;
 }
-
 */
