@@ -120,7 +120,7 @@ function isPalindrome(str) {
   // }
   // return true;
 }
-
+*/
 //  *** BONUS ***
 function RPS() {
   function determineComputer(num) {
@@ -135,10 +135,13 @@ function RPS() {
   let answers = ["rock", "paper", "scissor"];
 
   if (!userChoice || answers.indexOf(userChoice) === -1) {
-    return "Please select a valid option";
+    alert ("Please select a valid option")
+    return;
   }
 
-  if (userChoice === computerChoice) return "Tie!";
+  if (userChoice === computerChoice) 
+  {
+    return "Tie!";
 
   if (userChoice === "rock" && computerChoice === "paper") {
     return "You lose, computer picked " + computerChoice;
@@ -150,6 +153,7 @@ function RPS() {
     return "You lose, computer picked " + computerChoice;
   }
 
-  return "You win! Computer picked " + computerChoice;
+  alert ("You win! Computer picked ") + computerChoice;
+  return;
 }
-*/
+
