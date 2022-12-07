@@ -18,8 +18,28 @@
     />
 
     <style>
+      * {
+        text-decoration: none;
+        border: 2px solid transparent;
+        font-weight: bold;
+        font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+        padding: 4px 4px;
+        border-radius: 1px;
+        transition: 0.5s;
+        cursor: pointer;
+      }
+      *:hover {
+        background-color: lightgrey;
+      }
       .row {
         margin-bottom: 10px;
+      }
+
+      .row:hover {
+        background-color: transparent;
+        border: 2px solid #000000;
+        border-top: 12px;
+        cursor: pointer;
       }
     </style>
   </head>
@@ -40,7 +60,7 @@
       <header>
         <nav class="navbar bg-light">
           <div class="container-fluid">
-            <a class="navbar-brand">Classic Cars</a>
+            <a class="navbar-brand">Aircrafts</a>
             <!-- Button trigger modal -->
             <button
               type="button"
