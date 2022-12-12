@@ -1,0 +1,20 @@
+{
+  "name": "vr21",
+  "version": "1.0.0",
+  "description": "",
+  "main": "list.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ddjefferson/VR21.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ddjefferson/VR21/issues"
+  },
+  "homepage": "https://github.com/ddjefferson/VR21#readme"
+}
